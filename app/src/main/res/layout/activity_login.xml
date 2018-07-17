@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:
+    tools:context=".usuario.gui.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:text="@string/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/login_edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:text="@string/login_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/login_edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginBottom="7dp" />
+
+        <CheckBox
+            android:text="@string/login_ckbConectado"
+            android:id="@+id/login_ckbManterConectado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp" />
+
+        <Button
+            android:id="@+id/login_btnEntrar"
+            android:text="@string/login_btnLogar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="#a11c2f"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/login_btnCadastrar"
+            android:text="@string/login_btnCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="#a11c2f"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

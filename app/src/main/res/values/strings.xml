@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MUFC BR</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Login -->
+    <string name="login_email">Email:</string>
+    <string name="login_senha">Senha:</string>
+    <string name="login_btnLogar">Entrar</string>
+    <string name="login_btnCadastrar">Cadastrar</string>
+    <string name="login_ckbConectado">Manter conectado?</string>
+
+    <!-- Cadastro -->
+    <string name="cadastro_nome">Nome completo:</string>
+    <string name="cadastro_email">Email:</string>
+    <string name="cadastro_senha">Senha:</string>
+    <string name="cadastro_confirmarSenha">Confirmar Senha:</string>
+    <string name="cadastro_dataNascimento">Data de Nascimento:</string>
+    <string name="cadastro_estado">Estado:</string>
+    <string name="cadastro_cidade">Cidade:</string>
+    <string name="cadastro_btnCadastrar">Cadastrar</string>
+
+</resources>
